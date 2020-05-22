@@ -1,0 +1,128 @@
+body {
+    background-color: #EDEDED;
+}
+
+.navbar {
+    max-height: 55px;
+    background-color: white;
+    font-size: 15px;
+}
+
+.navigation .navbar-brand {
+    color: white;
+    margin-left: 30px;
+    padding: inherit;
+    font-weight: bold;
+    background-color: #0BAD;
+    font-family: Georgia, 'Times New Roman', Times, Serif;
+}
+
+.active, .dropdown-menu .dropdown-item:active a:hover {
+    background-color: #E7E7E7 !important;
+}
+
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu, .dropdown-item:hover {
+    background-color: #E7E7E7 !important;
+}
+
+.dropdown-item {
+    color:#6D8092
+}
+
+a {
+    color: #6D8092;
+    font-size: 15px;
+}
+
+.navbar-link:hover {
+    color: rgb(175, 175, 175);
+}
+
+img {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.active .panel:hover {
+    border-color: #0BAD;
+    border-style: solid;
+}
+
+.visualization {
+    width: 50% !important;
+    height: 50% !important;
+}
+
+.title {
+    border-color: #0BAD;
+    font-family: Georgia, 'Times New Roman', Times, Serif;
+    font-weight: bolder;
+    color: #0BAD;
+    padding-top: 25px;
+}
+
+p {
+    color: #6D8092;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.box {
+    margin-top: 60px;
+    margin-bottom: 65px;
+    padding: 10px 20px 15px;
+    color: black;
+    background-color: white;
+}
+
+.table {
+    font-size: 15px;
+    border-top-color: white !important;
+}
+
+footer {
+    color: white;
+    background-color: #666666
+    border-top-color: #0BAD;
+    border-top-style: solid;
+    border-top-width: 5px;
+    min-height: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 15px;
+}
+
+@media(max-width: 600px){
+
+    .navbar-expand-lg {
+        background-color: #0BAD !important;
+    }
+
+    .navbar {
+        max-height: none;
+        padding: inherit;
+    }
+
+    .navbar div {
+        margin: inherit;
+        background-color: white;
+    }
+
+    .navbar-brand {
+        padding: 10px !important;
+    }
+
+    button {
+        margin-right: 30px;
+    }
+
+    button:focus {
+        outline: 1px dotted;
+        outline: 5px auto -webkit-focusring-color;
+    }
+}
